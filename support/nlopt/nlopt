@@ -1,0 +1,5 @@
+curl -O http://ab-initio.mit.edu/nlopt/nlopt-2.3.tar.gz
+tar xzvf nlopt-2.3.tar.gz
+cd nlopt-2.3
+vulcan build
+tar tf /tmp/nlopt-2.3.tgz

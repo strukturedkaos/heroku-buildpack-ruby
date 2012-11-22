@@ -1,0 +1,5 @@
+curl -O http://ftp.gnu.org/gnu/gsl/gsl-1.14.tar.gz
+tar xzvf gsl-1.14.tar.gz
+cd gsl-1.14
+vulcan build
+tar tf /tmp/gsl-1.14.tgz
